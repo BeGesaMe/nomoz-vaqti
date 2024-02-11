@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/output.css">
+</head>
+<body>
+
+    <!--   {
+      "region":"Toshkent",
+      "date":"11/04/2022, 05:00:00",
+      "weekday":"Dushanba",
+      "times":{
+         "tong_saharlik":"04:26",
+         "quyosh":"05:50",
+         "peshin":"12:24",
+         "asr":"17:03",
+         "shom_iftor":"19:04",
+         "hufton":"20:18"
+      } -->
+    
+    <div class="card-result w-4/5 mx-auto">
+        <h2 class="text-center font-medium text-[20px] p-4">Nomoz Vaqtlari</h2>
+
+        <form action="" class="w-4/5 mx-auto flex justify-center">
+            <input id="viloyatInput" type="text" placeholder="Viloyatingizni kiriting" class="border border-[#1c4d78] w-2/5 h-[6vh] pl-3 text-[black] placeholder:text-black rounded-md">
+            <!-- <input id="kunInput" type="text" placeholder="Kun tanlang masalan: Dushanba " class="border border-[#1c4d78] w-2/5 h-[6vh] pl-3 text-[black] placeholder:text-black rounded-md"> -->
+        </form>
+
+        <button id="btn" class="block m-5 mx-auto border w-1/4 h-[5vh] rounded-md bg-[#1c4d78] text-white">Search</button>
+
+        <h4 class="text-center text-[20px] font-semibold">Bugungi kun</h4>
+          
+        <div class="flex justify-around items-center w-[90%] mx-auto">
+            <p class="date text-center mt-5 mb-5">Defualt</p>
+            <p class="region">Defualt</p>
+            <p class="kun">Defualt</p>
+        </div>
+
+        <div class="resualt-week">
+            <ul class="flex w-full justify-around mt-10 font-semibold">
+                <li class="tong_saharlik border p-4 rounded-md">Defualt</li>
+                <li class="quyosh border p-4 rounded-md">Defualt</li>
+                <li class="peshin border p-4 rounded-md">Defualt</li>
+                <li class="asr border p-4 rounded-md">Defualt</li>
+                <li class="shom_iftor border p-4 rounded-md">Defualt</li>
+                <li class="hufton border p-4 rounded-md">Defualt</li>
+            </ul>
+        </div>
+         
+    </div>
+
+
+    <template class="weekTemplate">
+        
+
+    </template>
+
+
+
+    <script src="uzgaruvchilar.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
